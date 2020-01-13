@@ -1,9 +1,9 @@
 package reportPage;
 
+import adminPage.AdminView;
 import application.EmployeeList;
 import application.FermiConnector;
 import application.FermiEntry;
-import editUsersPage.EditUsersView;
 import javafx.beans.value.ChangeListener;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -42,7 +42,7 @@ public class ReportsController {
 	TableColumn<FermiEntry, Boolean> bisonCol;
 
 	@FXML
-	private Button printButton, backButton, bisonButton, seniorityButton, updatesButton;
+	private Button printButton, homeButton, bisonButton, seniorityButton, updatesButton;
 
 	@FXML
 	private TextField searchNumber;
@@ -107,10 +107,10 @@ public class ReportsController {
 	}
 
 	@FXML
-	private void goBack() throws Exception {
-		Stage stage = (Stage) backButton.getScene().getWindow();
+	private void goHome() throws Exception {
+		Stage stage = (Stage) homeButton.getScene().getWindow();
 
-		EditUsersView view = new EditUsersView();
+		AdminView view = new AdminView();
 		view.showView(stage);
 	}
 
