@@ -43,8 +43,8 @@ public class AdminController {
 	@FXML
 	private Button printButton, logoutButton, reportsButton;
 
-	@FXML
-	Text updateText;
+    @FXML
+    Text updateText;
 
 	public AdminController() {
 
