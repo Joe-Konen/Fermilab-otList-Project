@@ -31,15 +31,8 @@ public class EditUsersController {
 	private Tab addTab, editTab, removeTab;
 
 	@FXML
-<<<<<<< Updated upstream
 	private Button addButton, homeButton, removeTabSearchButton, editTabSearchButton, deleteButton, editButton,
 			reportsButton;
-=======
-	private CheckBox addHoursButton, removeHoursButton;
-	
-	@FXML
-    private Button addButton, homeButton, removeTabSearchButton, editTabSearchButton, deleteButton, editButton, reportsButton;
->>>>>>> Stashed changes
 
 	@FXML
 	private TextField firstNameField, lastNameField, phoneField, seniorityField, hoursOfferedField,
@@ -47,7 +40,7 @@ public class EditUsersController {
 			editSeniorityField, editHoursField;
 
 	@FXML
-	private CheckBox bisonProgramCheckBox, adminCheckBox;
+	private CheckBox bisonProgramCheckBox, adminCheckBox, addHoursButton, removeHoursButton;
 
 	@FXML
 	private Label result, firstNameText, lastNameText, phoneText, seniorityText, hoursText, removeResult, editResult;
@@ -114,7 +107,6 @@ public class EditUsersController {
 				setTextLabels();
 			}
 		}
-		// TODO: check if user is null and display that user was not found
 	}
 
 	private void setTextFields() {

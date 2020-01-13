@@ -20,462 +20,325 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<<<<<<< Updated upstream
-<Pane maxHeight="-Infinity" maxWidth="-Infinity"
-	minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0"
-	prefWidth="620.0" stylesheets="@../application/defaultStyling.css"
-	xmlns="http://javafx.com/javafx/10.0.1"
-	xmlns:fx="http://javafx.com/fxml/1"
-	fx:controller="editUsersPage.EditUsersController">
-	<children>
-		<ImageView fitHeight="72.0" fitWidth="351.0" layoutX="14.0"
-			layoutY="559.0" pickOnBounds="true" preserveRatio="true">
-			<image>
-				<Image url="@../resources/fermi2.png" />
-			</image>
-		</ImageView>
-		<Text fill="#004c97" layoutX="125.0" layoutY="52.0"
-			strokeType="OUTSIDE" strokeWidth="0.0" text="Roads &amp; Grounds"
-			wrappingWidth="240.2060546875">
-=======
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="720.0" stylesheets="@../application/defaultStyling.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="editUsersPage.EditUsersController">
-	<children>
-        <ImageView fitHeight="45.0" fitWidth="206.0" layoutX="500.0" layoutY="667.0" pickOnBounds="true" preserveRatio="true">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0"
+      prefWidth="720.0" stylesheets="@../application/defaultStyling.css" xmlns="http://javafx.com/javafx/10.0.1"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="editUsersPage.EditUsersController">
+    <children>
+        <ImageView fitHeight="45.0" fitWidth="206.0" layoutX="500.0" layoutY="667.0" pickOnBounds="true"
+                   preserveRatio="true">
             <image>
-                <Image url="@../resources/fermi2.png" />
+                <Image url="@../resources/fermi2.png"/>
             </image>
         </ImageView>
-		<Text fill="#004c97" layoutX="125.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Roads &amp; Grounds" wrappingWidth="240.2060546875">
->>>>>>> Stashed changes
-			<font>
-				<Font name="System Bold" size="27.0" />
-			</font>
-		</Text>
-		<Text fill="#004c97" layoutX="125.0" layoutY="72.0"
-			strokeType="OUTSIDE" strokeWidth="0.0"
-			text="Overtime List Application" wrappingWidth="182.2060546875">
-			<font>
-				<Font size="15.0" />
-			</font>
-		</Text>
-		<VBox prefHeight="640.0" prefWidth="100.0">
-			<children>
-				<Button fx:id="homeButton" mnemonicParsing="false"
-					onAction="#showHome" prefHeight="90.0" prefWidth="104.0">
-					<font>
-						<Font name="System Bold Italic" size="24.0" />
-					</font>
-					<graphic>
-						<ImageView fitHeight="71.0" fitWidth="69.0"
-							pickOnBounds="true" preserveRatio="true">
-							<image>
-								<Image url="@../resources/home3.png" />
-							</image>
-						</ImageView>
-					</graphic>
-				</Button>
-<<<<<<< Updated upstream
-				<Button fx:id="usersButton" mnemonicParsing="false"
-					prefHeight="90.0" prefWidth="104.0">
-					<font>
-						<Font name="System Bold Italic" size="24.0" />
-					</font>
-					<graphic>
-						<ImageView fitHeight="63.0" fitWidth="71.0"
-							pickOnBounds="true" preserveRatio="true">
-							<image>
-								<Image url="@../resources/user.png" />
-							</image>
-						</ImageView>
-					</graphic>
-				</Button>
-				<Button fx:id="printButton" mnemonicParsing="false"
-					prefHeight="90.0" prefWidth="104.0">
-					<font>
-						<Font name="System Bold Italic" size="26.0" />
-					</font>
-					<graphic>
-						<ImageView fitHeight="63.0" fitWidth="71.0"
-							pickOnBounds="true" preserveRatio="true">
-							<image>
-								<Image url="@../resources/print2.png" />
-							</image>
-						</ImageView>
-					</graphic>
-				</Button>
-				<Button fx:id="reportsButton" mnemonicParsing="false"
-					onAction="#showReports" prefHeight="90.0" prefWidth="104.0">
-					<font>
-						<Font name="System Bold Italic" size="20.0" />
-					</font>
-					<graphic>
-						<ImageView fitHeight="63.0" fitWidth="71.0"
-							pickOnBounds="true" preserveRatio="true">
-							<image>
-								<Image url="@../resources/reports.png" />
-							</image>
-						</ImageView>
-					</graphic>
-				</Button>
-				<Button fx:id="logoutButton" mnemonicParsing="false"
-					prefHeight="90.0" prefWidth="104.0">
-					<graphic>
-						<ImageView fitHeight="63.0" fitWidth="71.0"
-							pickOnBounds="true" preserveRatio="true">
-							<image>
-								<Image url="@../resources/logout2.png" />
-							</image>
-						</ImageView>
-					</graphic>
-				</Button>
-			</children>
-=======
-				<Button fx:id="logoutButton" mnemonicParsing="false" prefHeight="90.0" prefWidth="104.0">
+        <Text fill="#004c97" layoutX="125.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              text="Roads &amp; Grounds" wrappingWidth="240.2060546875">
+            <font>
+                <Font name="System Bold" size="27.0"/>
+            </font>
+        </Text>
+        <Text fill="#004c97" layoutX="125.0" layoutY="72.0"
+              strokeType="OUTSIDE" strokeWidth="0.0"
+              text="Overtime List Application" wrappingWidth="182.2060546875">
+            <font>
+                <Font size="15.0"/>
+            </font>
+        </Text>
+        <VBox prefHeight="640.0" prefWidth="100.0">
+            <children>
+                <Button fx:id="homeButton" mnemonicParsing="false"
+                        onAction="#showHome" prefHeight="90.0" prefWidth="104.0">
+                    <font>
+                        <Font name="System Bold Italic" size="24.0"/>
+                    </font>
+                    <graphic>
+                        <ImageView fitHeight="71.0" fitWidth="69.0"
+                                   pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../resources/home3.png"/>
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Button fx:id="logoutButton" mnemonicParsing="false" prefHeight="90.0" prefWidth="104.0">
                     <graphic>
                         <ImageView fitHeight="63.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@../resources/logout2.png" />
+                                <Image url="@../resources/logout2.png"/>
                             </image>
                         </ImageView>
                     </graphic>
                 </Button>
             </children>
->>>>>>> Stashed changes
-		</VBox>
-		<TabPane fx:id="tabPane" layoutX="138.0" layoutY="120.0"
-			prefHeight="502.0" prefWidth="437.0" tabClosingPolicy="UNAVAILABLE">
-			<tabs>
-				<Tab fx:id="addTab" text="Add User">
-					<content>
-						<AnchorPane minHeight="0.0" minWidth="0.0"
-							prefHeight="268.0" prefWidth="249.0">
-							<children>
-								<GridPane hgap="10.0" layoutX="1.0" prefHeight="268.0"
-									prefWidth="426.0">
-									<columnConstraints>
-										<ColumnConstraints halignment="RIGHT"
-											hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0"
-											prefWidth="139.0" />
-										<ColumnConstraints hgrow="SOMETIMES"
-											maxWidth="277.0" minWidth="10.0" prefWidth="277.0" />
-									</columnConstraints>
-									<rowConstraints>
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-									</rowConstraints>
-									<children>
-										<Label text="First Name: ">
-											<opaqueInsets>
-												<Insets />
-											</opaqueInsets>
-										</Label>
-										<Label text="Last Name:" GridPane.rowIndex="1" />
-										<Label text="Phone:" GridPane.rowIndex="2" />
-										<Label text="Seniority:" GridPane.rowIndex="3" />
-										<Label text="Hours Offered:" GridPane.rowIndex="4" />
-										<TextField fx:id="firstNameField" maxWidth="150.0"
-											prefWidth="150.0" GridPane.columnIndex="1">
-											<tooltip>
-												<Tooltip text="Only letters and up to one space" />
-											</tooltip>
-										</TextField>
-										<TextField fx:id="lastNameField" maxWidth="150.0"
-											GridPane.columnIndex="1" GridPane.rowIndex="1">
-											<tooltip>
-												<Tooltip text="Only letters and up to one space" />
-											</tooltip>
-										</TextField>
-										<TextField fx:id="phoneField" maxWidth="150.0"
-											GridPane.columnIndex="1" GridPane.rowIndex="2">
-											<tooltip>
-												<Tooltip text="10 digits, no punctuation" />
-											</tooltip>
-										</TextField>
-										<TextField fx:id="seniorityField" maxWidth="150.0"
-											GridPane.columnIndex="1" GridPane.rowIndex="3">
-											<tooltip>
-												<Tooltip text="Number greater than 0, no decimals" />
-											</tooltip>
-										</TextField>
-										<TextField fx:id="hoursOfferedField"
-											maxWidth="150.0" GridPane.columnIndex="1"
-											GridPane.rowIndex="4">
-											<tooltip>
-												<Tooltip text="Positive number" />
-											</tooltip>
-										</TextField>
-									</children>
-								</GridPane>
-<<<<<<< Updated upstream
-								<VBox alignment="CENTER" layoutX="10.0" layoutY="257.0"
-									prefHeight="106.0" prefWidth="404.0"
-									AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="10.0"
-									AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="257.0">
-=======
-								<VBox alignment="CENTER" layoutX="10.0" layoutY="257.0" prefHeight="180.0" prefWidth="416.0" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="257.0">
->>>>>>> Stashed changes
-									<children>
-										<HBox prefHeight="31.0" prefWidth="416.0">
-											<children>
-												<CheckBox fx:id="adminCheckBox"
-													mnemonicParsing="false" text="Administrator">
-													<padding>
-														<Insets left="70.0" right="20.0" />
-													</padding>
-												</CheckBox>
-<<<<<<< Updated upstream
-												<CheckBox fx:id="bisonProgramCheckBox"
-													alignment="CENTER" mnemonicParsing="false"
-													prefHeight="17.0" prefWidth="175.0"
-													text="Bison Feeding Program">
-=======
-												<CheckBox fx:id="bisonProgramCheckBox" alignment="CENTER" mnemonicParsing="false" prefHeight="18.0" prefWidth="199.0" text="Bison Feeding Program">
->>>>>>> Stashed changes
-													<padding>
-														<Insets left="20.0" />
-													</padding>
-												</CheckBox>
-											</children>
-										</HBox>
-<<<<<<< Updated upstream
-										<Button fx:id="addButton" mnemonicParsing="false"
-											onAction="#addUser" text="Add Employee">
-											<VBox.margin>
-												<Insets />
-											</VBox.margin>
-										</Button>
-										<Label fx:id="result" alignment="CENTER"
-											contentDisplay="CENTER" prefHeight="29.0" prefWidth="413.0" />
-=======
-										<Label fx:id="result" alignment="CENTER" contentDisplay="CENTER" prefHeight="29.0" prefWidth="413.0" />
-                        										<Button fx:id="addButton" mnemonicParsing="false" onAction="#addUser" prefHeight="9.0" prefWidth="94.0" text="Add Employee">
-											<VBox.margin>
-												<Insets />
-											</VBox.margin>
-                        										</Button>
->>>>>>> Stashed changes
-									</children>
-								</VBox>
-							</children>
-						</AnchorPane>
-					</content>
-				</Tab>
-				<Tab fx:id="editTab" text="Edit User">
-					<content>
-<<<<<<< Updated upstream
-						<AnchorPane minHeight="0.0" minWidth="0.0"
-							prefHeight="180.0" prefWidth="200.0">
-							<children>
-								<Label alignment="CENTER_RIGHT" layoutX="87.0"
-									layoutY="33.0" prefHeight="18.0" prefWidth="66.0"
-									text="Search:" />
-								<TextField fx:id="editTabSearchField" layoutX="173.0"
-									layoutY="30.0" prefHeight="25.0" prefWidth="182.0">
-=======
-						<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="468.0" prefWidth="438.0">
-							<children>
-								<Label alignment="CENTER_RIGHT" layoutX="74.0" layoutY="31.0" prefHeight="18.0" prefWidth="66.0" text="Search:" />
-								<TextField fx:id="editTabSearchField" layoutX="141.0" layoutY="28.0" prefHeight="25.0" prefWidth="182.0">
->>>>>>> Stashed changes
-									<tooltip>
-										<Tooltip text="Search by last name" />
-									</tooltip>
-								</TextField>
-<<<<<<< Updated upstream
-								<Button fx:id="editTabSearchButton" layoutX="174.0"
-									layoutY="67.0" mnemonicParsing="false"
-									onAction="#displayUserFromSearch" prefHeight="29.0"
-									prefWidth="89.0" text="Search" />
-								<GridPane hgap="10.0" layoutX="6.0" layoutY="103.0"
-									prefHeight="268.0" prefWidth="426.0">
-=======
-								<Button fx:id="editTabSearchButton" layoutX="186.0" layoutY="63.0" mnemonicParsing="false" onAction="#displayUserFromSearch" prefHeight="29.0" prefWidth="89.0" text="Search" />
-								<GridPane hgap="10.0" layoutX="6.0" layoutY="103.0" prefHeight="199.0" prefWidth="426.0">
->>>>>>> Stashed changes
-									<columnConstraints>
-										<ColumnConstraints halignment="RIGHT"
-											hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0"
-											prefWidth="139.0" />
-										<ColumnConstraints hgrow="SOMETIMES"
-											maxWidth="277.0" minWidth="10.0" prefWidth="277.0" />
-									</columnConstraints>
-									<rowConstraints>
-<<<<<<< Updated upstream
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-=======
-										<RowConstraints maxHeight="75.19998779296876" minHeight="10.0" prefHeight="17.600004577636717" vgrow="SOMETIMES" />
-										<RowConstraints maxHeight="90.19999542236329" minHeight="10.0" prefHeight="41.4" vgrow="SOMETIMES" />
-										<RowConstraints maxHeight="108.19998779296876" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES" />
-										<RowConstraints maxHeight="112.9999755859375" minHeight="10.0" prefHeight="47.20001831054688" vgrow="SOMETIMES" />
-										<RowConstraints maxHeight="139.39999999999998" minHeight="10.0" prefHeight="89.3999816894531" vgrow="SOMETIMES" />
->>>>>>> Stashed changes
-									</rowConstraints>
-									<children>
-										<Label text="First Name">
-											<opaqueInsets>
-												<Insets />
-											</opaqueInsets>
-										</Label>
-										<Label text="Last Name" GridPane.rowIndex="1" />
-										<Label text="Seniority" GridPane.rowIndex="3" />
-<<<<<<< Updated upstream
-										<Label text="Hours Offered" GridPane.rowIndex="4" />
-										<TextField fx:id="editFirstNameField"
-											maxWidth="150.0" prefWidth="150.0" GridPane.columnIndex="1">
-=======
-										<Label text="Hours Worked" GridPane.rowIndex="4" />
-										<TextField fx:id="editFirstNameField" maxWidth="150.0" prefWidth="150.0" GridPane.columnIndex="1">
->>>>>>> Stashed changes
-											<tooltip>
-												<Tooltip text="Only letters and up to one space" />
-											</tooltip>
-										</TextField>
-										<TextField fx:id="editLastNameField"
-											maxWidth="150.0" GridPane.columnIndex="1"
-											GridPane.rowIndex="1">
-											<tooltip>
-												<Tooltip text="Only letters and up to one space" />
-											</tooltip>
-										</TextField>
-										<TextField fx:id="editPhoneField" maxWidth="150.0"
-											GridPane.columnIndex="1" GridPane.rowIndex="2">
-											<tooltip>
-												<Tooltip text="10 digits, no punctuation" />
-											</tooltip>
-										</TextField>
-										<TextField fx:id="editSeniorityField"
-											maxWidth="150.0" GridPane.columnIndex="1"
-											GridPane.rowIndex="3">
-											<tooltip>
-												<Tooltip text="Number greater than 0, no decimals" />
-											</tooltip>
-										</TextField>
-										<TextField fx:id="editHoursField" maxWidth="150.0"
-											GridPane.columnIndex="1" GridPane.rowIndex="4">
-											<tooltip>
-												<Tooltip text="Positive number" />
-											</tooltip>
-										</TextField>
-										<Label text="Phone" GridPane.rowIndex="2" />
-									</children>
-								</GridPane>
-<<<<<<< Updated upstream
-								<Button fx:id="editButton" layoutX="158.0"
-									layoutY="379.0" mnemonicParsing="false" onAction="#editUser"
-									prefHeight="39.0" prefWidth="122.0" text="Edit Employee" />
-								<Label fx:id="editResult" alignment="CENTER"
-									contentDisplay="CENTER" layoutX="1.0" layoutY="427.0"
-									prefHeight="17.0" prefWidth="437.0" />
-=======
-								<Button fx:id="editButton" layoutX="170.0" layoutY="379.0" mnemonicParsing="false" onAction="#editUser" prefHeight="39.0" prefWidth="122.0" text="Edit Employee" />
-                        <Button fx:id="removeHourButton" layoutX="244.0" layoutY="282.0" mnemonicParsing="false" onAction="#manualRemoveHours" prefHeight="39.0" prefWidth="95.0" text="Remove" />
-                        <Button fx:id="addHourButton" layoutX="123.0" layoutY="282.0" mnemonicParsing="false" onAction="#manualAddHours" prefHeight="39.0" prefWidth="94.0" text="Add" />
-								<Label fx:id="editResult" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="427.0" prefHeight="17.0" prefWidth="437.0" />
->>>>>>> Stashed changes
-							</children>
-						</AnchorPane>
-					</content>
-				</Tab>
-				<Tab fx:id="removeTab" text="Remove User">
-					<content>
-						<AnchorPane minHeight="0.0" minWidth="0.0"
-							prefHeight="389.0" prefWidth="426.0">
-							<children>
-<<<<<<< Updated upstream
-								<Label alignment="CENTER_RIGHT" layoutX="97.0"
-									layoutY="42.0" prefHeight="18.0" prefWidth="66.0"
-									text="Search:" />
-								<TextField fx:id="removeTabSearchField"
-									layoutX="172.0" layoutY="38.0" prefHeight="25.0"
-									prefWidth="182.0">
-=======
-								<Label alignment="CENTER_RIGHT" layoutX="61.0" layoutY="39.0" prefHeight="18.0" prefWidth="66.0" text="Search:" />
-								<TextField fx:id="removeTabSearchField" layoutX="128.0" layoutY="36.0" prefHeight="25.0" prefWidth="182.0">
->>>>>>> Stashed changes
-									<tooltip>
-										<Tooltip text="Search by last name" />
-									</tooltip>
-								</TextField>
-<<<<<<< Updated upstream
-								<Button fx:id="removeTabSearchButton" layoutX="174.0"
-									layoutY="76.0" mnemonicParsing="false"
-									onAction="#displayUserFromSearch" prefHeight="29.0"
-									prefWidth="89.0" text="Search" />
-=======
-								<Button fx:id="removeTabSearchButton" layoutX="174.0" layoutY="75.0" mnemonicParsing="false" onAction="#displayUserFromSearch" prefHeight="29.0" prefWidth="89.0" text="Search" />
->>>>>>> Stashed changes
-
-								<GridPane hgap="10.0" layoutX="6.0" layoutY="105.0"
-									prefHeight="268.0" prefWidth="426.0">
-									<columnConstraints>
-										<ColumnConstraints halignment="RIGHT"
-											hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0"
-											prefWidth="139.0" />
-										<ColumnConstraints hgrow="SOMETIMES"
-											maxWidth="277.0" minWidth="10.0" prefWidth="277.0" />
-									</columnConstraints>
-									<rowConstraints>
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-										<RowConstraints minHeight="10.0"
-											prefHeight="30.0" vgrow="SOMETIMES" />
-									</rowConstraints>
-									<children>
-										<Label text="First Name:">
-											<opaqueInsets>
-												<Insets />
-											</opaqueInsets>
-										</Label>
-										<Label text="Last Name:" GridPane.rowIndex="1" />
-										<Label text="Seniority:" GridPane.rowIndex="3" />
-										<Label text="Hours Offered:" GridPane.rowIndex="4" />
-										<Label text="Phone:" GridPane.rowIndex="2" />
-										<Label fx:id="firstNameText" GridPane.columnIndex="1" />
-										<Label fx:id="lastNameText" GridPane.columnIndex="1"
-											GridPane.rowIndex="1" />
-										<Label fx:id="phoneText" GridPane.columnIndex="1"
-											GridPane.rowIndex="2" />
-										<Label fx:id="seniorityText" GridPane.columnIndex="1"
-											GridPane.rowIndex="3" />
-										<Label fx:id="hoursText" GridPane.columnIndex="1"
-											GridPane.rowIndex="4" />
-									</children>
-								</GridPane>
-								<Button layoutX="158.0" layoutY="373.0"
-									mnemonicParsing="false" onAction="#deleteUser"
-									prefHeight="39.0" prefWidth="122.0" text="Delete Employee" />
-								<Label fx:id="removeResult" alignment="CENTER"
-									contentDisplay="CENTER" layoutX="1.0" layoutY="431.0"
-									prefHeight="17.0" prefWidth="437.0" />
-							</children>
-						</AnchorPane>
-					</content>
-				</Tab>
-			</tabs>
-		</TabPane>
-	</children>
-
+        </VBox>
+        <TabPane fx:id="tabPane" layoutX="138.0" layoutY="120.0"
+                 prefHeight="502.0" prefWidth="437.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab fx:id="addTab" text="Add User">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0"
+                                    prefHeight="268.0" prefWidth="249.0">
+                            <children>
+                                <GridPane hgap="10.0" layoutX="1.0" prefHeight="268.0"
+                                          prefWidth="426.0">
+                                    <columnConstraints>
+                                        <ColumnConstraints halignment="RIGHT"
+                                                           hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0"
+                                                           prefWidth="139.0"/>
+                                        <ColumnConstraints hgrow="SOMETIMES"
+                                                           maxWidth="277.0" minWidth="10.0" prefWidth="277.0"/>
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0"
+                                                        prefHeight="30.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints minHeight="10.0"
+                                                        prefHeight="30.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints minHeight="10.0"
+                                                        prefHeight="30.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints minHeight="10.0"
+                                                        prefHeight="30.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints minHeight="10.0"
+                                                        prefHeight="30.0" vgrow="SOMETIMES"/>
+                                    </rowConstraints>
+                                    <children>
+                                        <Label text="First Name: ">
+                                            <opaqueInsets>
+                                                <Insets/>
+                                            </opaqueInsets>
+                                        </Label>
+                                        <Label text="Last Name:" GridPane.rowIndex="1"/>
+                                        <Label text="Phone:" GridPane.rowIndex="2"/>
+                                        <Label text="Seniority:" GridPane.rowIndex="3"/>
+                                        <Label text="Hours Offered:" GridPane.rowIndex="4"/>
+                                        <TextField fx:id="firstNameField" maxWidth="150.0"
+                                                   prefWidth="150.0" GridPane.columnIndex="1">
+                                            <tooltip>
+                                                <Tooltip text="Only letters and up to one space"/>
+                                            </tooltip>
+                                        </TextField>
+                                        <TextField fx:id="lastNameField" maxWidth="150.0"
+                                                   GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                            <tooltip>
+                                                <Tooltip text="Only letters and up to one space"/>
+                                            </tooltip>
+                                        </TextField>
+                                        <TextField fx:id="phoneField" maxWidth="150.0"
+                                                   GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                            <tooltip>
+                                                <Tooltip text="10 digits, no punctuation"/>
+                                            </tooltip>
+                                        </TextField>
+                                        <TextField fx:id="seniorityField" maxWidth="150.0"
+                                                   GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                            <tooltip>
+                                                <Tooltip text="Number greater than 0, no decimals"/>
+                                            </tooltip>
+                                        </TextField>
+                                        <TextField fx:id="hoursOfferedField"
+                                                   maxWidth="150.0" GridPane.columnIndex="1"
+                                                   GridPane.rowIndex="4">
+                                            <tooltip>
+                                                <Tooltip text="Positive number"/>
+                                            </tooltip>
+                                        </TextField>
+                                    </children>
+                                </GridPane>
+                                <VBox alignment="CENTER" layoutX="10.0" layoutY="257.0" prefHeight="180.0"
+                                      prefWidth="416.0" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="10.0"
+                                      AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="257.0">
+                                    <children>
+                                        <HBox prefHeight="31.0" prefWidth="416.0">
+                                            <children>
+                                                <CheckBox fx:id="adminCheckBox"
+                                                          mnemonicParsing="false" text="Administrator">
+                                                    <padding>
+                                                        <Insets left="70.0" right="20.0"/>
+                                                    </padding>
+                                                </CheckBox>
+                                                <CheckBox fx:id="bisonProgramCheckBox" alignment="CENTER"
+                                                          mnemonicParsing="false" prefHeight="18.0" prefWidth="199.0"
+                                                          text="Bison Feeding Program">
+                                                    <padding>
+                                                        <Insets left="20.0"/>
+                                                    </padding>
+                                                </CheckBox>
+                                            </children>
+                                        </HBox>
+                                        <Label fx:id="result" alignment="CENTER" contentDisplay="CENTER"
+                                               prefHeight="29.0" prefWidth="413.0"/>
+                                        <Button fx:id="addButton" mnemonicParsing="false" onAction="#addUser"
+                                                prefHeight="9.0" prefWidth="94.0" text="Add Employee">
+                                            <VBox.margin>
+                                                <Insets/>
+                                            </VBox.margin>
+                                        </Button>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="editTab" text="Edit User">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="468.0" prefWidth="438.0">
+                            <children>
+                                <Label alignment="CENTER_RIGHT" layoutX="74.0" layoutY="31.0" prefHeight="18.0"
+                                       prefWidth="66.0" text="Search:"/>
+                                <TextField fx:id="editTabSearchField" layoutX="141.0" layoutY="28.0" prefHeight="25.0"
+                                           prefWidth="182.0">
+                                    <tooltip>
+                                        <Tooltip text="Search by last name"/>
+                                    </tooltip>
+                                </TextField>
+                                <Button fx:id="editTabSearchButton" layoutX="186.0" layoutY="63.0"
+                                        mnemonicParsing="false" onAction="#displayUserFromSearch" prefHeight="29.0"
+                                        prefWidth="89.0" text="Search"/>
+                                <GridPane hgap="10.0" layoutX="6.0" layoutY="103.0" prefHeight="199.0"
+                                          prefWidth="426.0">
+                                    <columnConstraints>
+                                        <ColumnConstraints halignment="RIGHT"
+                                                           hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0"
+                                                           prefWidth="139.0"/>
+                                        <ColumnConstraints hgrow="SOMETIMES"
+                                                           maxWidth="277.0" minWidth="10.0" prefWidth="277.0"/>
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints maxHeight="75.19998779296876" minHeight="10.0"
+                                                        prefHeight="17.600004577636717" vgrow="SOMETIMES"/>
+                                        <RowConstraints maxHeight="90.19999542236329" minHeight="10.0" prefHeight="41.4"
+                                                        vgrow="SOMETIMES"/>
+                                        <RowConstraints maxHeight="108.19998779296876" minHeight="10.0"
+                                                        prefHeight="19.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints maxHeight="112.9999755859375" minHeight="10.0"
+                                                        prefHeight="47.20001831054688" vgrow="SOMETIMES"/>
+                                        <RowConstraints maxHeight="139.39999999999998" minHeight="10.0"
+                                                        prefHeight="89.3999816894531" vgrow="SOMETIMES"/>
+                                    </rowConstraints>
+                                    <children>
+                                        <Label text="First Name">
+                                            <opaqueInsets>
+                                                <Insets/>
+                                            </opaqueInsets>
+                                        </Label>
+                                        <Label text="Last Name" GridPane.rowIndex="1"/>
+                                        <Label text="Seniority" GridPane.rowIndex="3"/>
+                                        <Label text="Hours Worked" GridPane.rowIndex="4"/>
+                                        <TextField fx:id="editFirstNameField" maxWidth="150.0" prefWidth="150.0"
+                                                   GridPane.columnIndex="1">
+                                            <tooltip>
+                                                <Tooltip text="Only letters and up to one space"/>
+                                            </tooltip>
+                                        </TextField>
+                                        <TextField fx:id="editLastNameField"
+                                                   maxWidth="150.0" GridPane.columnIndex="1"
+                                                   GridPane.rowIndex="1">
+                                            <tooltip>
+                                                <Tooltip text="Only letters and up to one space"/>
+                                            </tooltip>
+                                        </TextField>
+                                        <TextField fx:id="editPhoneField" maxWidth="150.0"
+                                                   GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                            <tooltip>
+                                                <Tooltip text="10 digits, no punctuation"/>
+                                            </tooltip>
+                                        </TextField>
+                                        <TextField fx:id="editSeniorityField"
+                                                   maxWidth="150.0" GridPane.columnIndex="1"
+                                                   GridPane.rowIndex="3">
+                                            <tooltip>
+                                                <Tooltip text="Number greater than 0, no decimals"/>
+                                            </tooltip>
+                                        </TextField>
+                                        <TextField fx:id="editHoursField" maxWidth="150.0"
+                                                   GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                            <tooltip>
+                                                <Tooltip text="Positive number"/>
+                                            </tooltip>
+                                        </TextField>
+                                        <Label text="Phone" GridPane.rowIndex="2"/>
+                                    </children>
+                                </GridPane>
+                                <Button fx:id="editButton" layoutX="170.0" layoutY="379.0" mnemonicParsing="false"
+                                        onAction="#editUser" prefHeight="39.0" prefWidth="122.0" text="Edit Employee"/>
+                                <Button fx:id="removeHourButton" layoutX="244.0" layoutY="282.0" mnemonicParsing="false"
+                                        onAction="#manualRemoveHours" prefHeight="39.0" prefWidth="95.0" text="Remove"/>
+                                <Button fx:id="addHourButton" layoutX="123.0" layoutY="282.0" mnemonicParsing="false"
+                                        onAction="#manualAddHours" prefHeight="39.0" prefWidth="94.0" text="Add"/>
+                                <Label fx:id="editResult" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0"
+                                       layoutY="427.0" prefHeight="17.0" prefWidth="437.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="removeTab" text="Remove User">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0"
+                                    prefHeight="389.0" prefWidth="426.0">
+                            <children>
+                                <Label alignment="CENTER_RIGHT" layoutX="61.0" layoutY="39.0" prefHeight="18.0"
+                                       prefWidth="66.0" text="Search:"/>
+                                <TextField fx:id="removeTabSearchField" layoutX="128.0" layoutY="36.0" prefHeight="25.0"
+                                           prefWidth="182.0">
+                                    <tooltip>
+                                        <Tooltip text="Search by last name"/>
+                                    </tooltip>
+                                </TextField>
+                                <Button fx:id="removeTabSearchButton" layoutX="174.0"
+                                        layoutY="76.0" mnemonicParsing="false"
+                                        onAction="#displayUserFromSearch" prefHeight="29.0"
+                                        prefWidth="89.0" text="Search"/>
+                                <GridPane hgap="10.0" layoutX="6.0" layoutY="105.0"
+                                          prefHeight="268.0" prefWidth="426.0">
+                                    <columnConstraints>
+                                        <ColumnConstraints halignment="RIGHT"
+                                                           hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0"
+                                                           prefWidth="139.0"/>
+                                        <ColumnConstraints hgrow="SOMETIMES"
+                                                           maxWidth="277.0" minWidth="10.0" prefWidth="277.0"/>
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0"
+                                                        prefHeight="30.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints minHeight="10.0"
+                                                        prefHeight="30.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints minHeight="10.0"
+                                                        prefHeight="30.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints minHeight="10.0"
+                                                        prefHeight="30.0" vgrow="SOMETIMES"/>
+                                        <RowConstraints minHeight="10.0"
+                                                        prefHeight="30.0" vgrow="SOMETIMES"/>
+                                    </rowConstraints>
+                                    <children>
+                                        <Label text="First Name:">
+                                            <opaqueInsets>
+                                                <Insets/>
+                                            </opaqueInsets>
+                                        </Label>
+                                        <Label text="Last Name:" GridPane.rowIndex="1"/>
+                                        <Label text="Seniority:" GridPane.rowIndex="3"/>
+                                        <Label text="Hours Offered:" GridPane.rowIndex="4"/>
+                                        <Label text="Phone:" GridPane.rowIndex="2"/>
+                                        <Label fx:id="firstNameText" GridPane.columnIndex="1"/>
+                                        <Label fx:id="lastNameText" GridPane.columnIndex="1"
+                                               GridPane.rowIndex="1"/>
+                                        <Label fx:id="phoneText" GridPane.columnIndex="1"
+                                               GridPane.rowIndex="2"/>
+                                        <Label fx:id="seniorityText" GridPane.columnIndex="1"
+                                               GridPane.rowIndex="3"/>
+                                        <Label fx:id="hoursText" GridPane.columnIndex="1"
+                                               GridPane.rowIndex="4"/>
+                                    </children>
+                                </GridPane>
+                                <Button layoutX="158.0" layoutY="373.0"
+                                        mnemonicParsing="false" onAction="#deleteUser"
+                                        prefHeight="39.0" prefWidth="122.0" text="Delete Employee"/>
+                                <Label fx:id="removeResult" alignment="CENTER"
+                                       contentDisplay="CENTER" layoutX="1.0" layoutY="431.0"
+                                       prefHeight="17.0" prefWidth="437.0"/>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
 </Pane>
