@@ -12,7 +12,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="721.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userPage.UserController">
    <children>
-      <ImageView fitHeight="72.0" fitWidth="351.0" layoutX="14.0" layoutY="771.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="39.0" fitWidth="308.0" layoutX="491.0" layoutY="797.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../resources/fermi2.png" />
          </image>
@@ -48,7 +48,6 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn2" mnemonicParsing="false" prefHeight="90.0" prefWidth="104.0" />
             <Button fx:id="printButton" mnemonicParsing="false" onAction="#printPage" prefHeight="90.0" prefWidth="104.0">
                <font>
                   <Font name="System Bold Italic" size="26.0" />
@@ -60,11 +59,6 @@
                      </image>
                   </ImageView>
                </graphic>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="90.0" prefWidth="104.0">
-               <font>
-                  <Font name="System Bold Italic" size="20.0" />
-               </font>
             </Button>
             <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#logOut" prefHeight="90.0" prefWidth="104.0">
             	<font>

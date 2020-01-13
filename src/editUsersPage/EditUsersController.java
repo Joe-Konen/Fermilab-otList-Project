@@ -31,8 +31,15 @@ public class EditUsersController {
 	private Tab addTab, editTab, removeTab;
 
 	@FXML
+<<<<<<< Updated upstream
 	private Button addButton, homeButton, removeTabSearchButton, editTabSearchButton, deleteButton, editButton,
 			reportsButton;
+=======
+	private CheckBox addHoursButton, removeHoursButton;
+	
+	@FXML
+    private Button addButton, homeButton, removeTabSearchButton, editTabSearchButton, deleteButton, editButton, reportsButton;
+>>>>>>> Stashed changes
 
 	@FXML
 	private TextField firstNameField, lastNameField, phoneField, seniorityField, hoursOfferedField,
@@ -145,9 +152,27 @@ public class EditUsersController {
 		}
 		return user;
 	}
-
+	
+	@FXML
+	private void manualAddHours() {
+		
+		Double hours = Double.parseDouble(editHoursField.getText());
+		
+		user.setOvertime((user.getOvertime()+hours));
+		
+	}
+	
+	@FXML
+	private void manualRemoveHours() {
+		
+		Double hours = Double.parseDouble(editHoursField.getText());
+		
+		user.setOvertime((user.getOvertime()-hours));
+	}
+	
 	@FXML
 	private void editUser() {
+		
 		if (validateEntries()) {
 			FermiEntry originalEntry = new FermiEntry(user.getFirstName(), user.getLastName(), user.getPhone(),
 					user.getOvertime(), user.getSeniority(), user.isInBison());
@@ -155,13 +180,15 @@ public class EditUsersController {
 			String fName = editFirstNameField.getText();
 			String lName = editLastNameField.getText();
 			String phone = parsePhoneNumber(editPhoneField.getText());
-			Double hours = Double.parseDouble(editHoursField.getText());
+			//Double hours = Double.parseDouble(editHoursField.getText());
 			Integer seniority = Integer.parseInt(editSeniorityField.getText());
-
+			
+			
+			
 			user.setFirstName(fName);
 			user.setLastName(lName);
 			user.setPhone(phone);
-			user.setOvertime(hours);
+			//user.setOvertime(hours);
 			user.setSeniority(seniority);
 
 			if (db.edit(user, originalEntry.getSeniority())) {

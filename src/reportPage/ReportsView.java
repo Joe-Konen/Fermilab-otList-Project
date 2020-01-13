@@ -15,6 +15,7 @@ public class ReportsView {
 	public ReportsView() {
 	}
 
+<<<<<<< Updated upstream
 	public void showView(Stage window) throws Exception {
 		Pane root = (Pane) FXMLLoader.load(getClass().getResource("reportPage.fxml"));
 		Scene scene = new Scene(root, 720, 640);
@@ -23,4 +24,14 @@ public class ReportsView {
 		window.setResizable(false);
 		window.show();
 	}
+=======
+    public void showView(Stage window) throws Exception {
+        Pane root = (Pane) FXMLLoader.load(getClass().getResource("reportPage.fxml"));
+        Scene scene = new Scene(root, 720, 780);
+        window.setTitle("Reports");
+        window.setScene(scene);
+        window.setResizable(false);
+        window.show();
+    }
+>>>>>>> Stashed changes
 }
