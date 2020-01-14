@@ -135,36 +135,9 @@ public class ReportsController {
     	        bisonEmployees.add(entry);
         }
     	
-    	//bubble sort
-    	for (int i = 0; i < bisonEmployees.size()-1; i++)   {   
-    		emp = 0;
-    	    for (int j = 0; j < bisonEmployees.size()-i-1; j++){
-    	    	//compare the last names of the current employee and the next one in the list
-    	        if (compare(bisonEmployees.get(j).getLastName(), bisonEmployees.get(j+1).getLastName()) >= 1) { 
-    	            swap(bisonEmployees.get(j), bisonEmployees.get(j+1), emp, bisonEmployees);
-    	        }
-    	        emp++;
-    		}
-    	}
-    	
     	dataTable.setItems(bisonEmployees);
+    	
     }
-    
-    private void swap(FermiEntry fermiEntry, FermiEntry fermiEntry2, int emp, List<FermiEntry> employees) {
-		
-    	FermiEntry temp = new FermiEntry(fermiEntry.getFirstName(), fermiEntry.getLastName(), fermiEntry.getPhone(), fermiEntry.getOvertime(),
-                fermiEntry.getSeniority(), fermiEntry.isInBison());
-		
-		employees.set(emp, fermiEntry2);
-		
-		employees.set(emp+1, temp);
-		
-	}
-	
-    
-    private int compare(String aLastName, String bLastName) {
-		return aLastName.compareTo(bLastName);
-	}
 
 	@FXML
     private void SeniorReport() throws Exception{
