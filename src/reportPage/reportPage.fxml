@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="721.0" stylesheets="@../application/defaultStyling.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="reportPage.ReportsController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="721.0" stylesheets="@../application/defaultStyling.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="reportPage.ReportsController">
    <children>
       <TableView fx:id="dataTable" layoutX="118.0" layoutY="172.0" prefHeight="368.0" prefWidth="581.0">
          <columns>
@@ -37,8 +37,6 @@
       </Text>
       <VBox prefHeight="640.0" prefWidth="100.0">
          <children>
-            <Button fx:id="btn1" mnemonicParsing="false" prefHeight="90.0" prefWidth="104.0" />
-            <Button fx:id="btn2" mnemonicParsing="false" prefHeight="90.0" prefWidth="104.0" />
             <Button fx:id="printButton" mnemonicParsing="false" onAction="#printPage" prefHeight="90.0" prefWidth="104.0">
                <font>
                   <Font name="System Bold Italic" size="26.0" />
@@ -51,7 +49,6 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn5" mnemonicParsing="false" prefHeight="90.0" prefWidth="104.0" />
             <Button fx:id="backButton" mnemonicParsing="false" onAction="#goBack" prefHeight="90.0" prefWidth="104.0">
                <font>
                   <Font name="System Bold Italic" size="26.0" />
@@ -64,7 +61,6 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn6" mnemonicParsing="false" prefHeight="90.0" prefWidth="104.0" />
          </children>
       </VBox>
       <Button fx:id="bisonButton" layoutX="117.0" layoutY="95.0" mnemonicParsing="false" onAction="#BisonReport" prefHeight="39.0" prefWidth="146.0" text="Bison Feeding Program" />
