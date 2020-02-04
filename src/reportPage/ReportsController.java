@@ -76,6 +76,7 @@ public class ReportsController {
 
     @FXML
     private void printPage() {
+    	//print functionality needs formatting
         Node root = dataTable;
         PrinterJob job = PrinterJob.createPrinterJob();
 

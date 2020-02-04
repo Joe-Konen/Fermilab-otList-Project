@@ -70,6 +70,7 @@
 										<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
 										<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
 										<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
 									</rowConstraints>
 									<children>
 										<Label text="First Name: ">
@@ -106,24 +107,16 @@
 												<Tooltip text="Positive number" />
 											</tooltip>
 										</TextField>
-									</children>
-								</GridPane>
-								<VBox alignment="CENTER" layoutX="10.0" layoutY="257.0" prefHeight="155.0" prefWidth="416.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="257.0">
-									<children>
-										<HBox prefHeight="42.0" prefWidth="404.0">
-											<children>
-												<CheckBox fx:id="adminCheckBox" mnemonicParsing="false" text="Administrator">
-													<padding>
-														<Insets left="70.0" right="20.0" />
-													</padding>
-												</CheckBox>
-												<CheckBox fx:id="bisonProgramCheckBox" alignment="CENTER" mnemonicParsing="false" prefHeight="17.0" prefWidth="175.0" text="Bison Feeding Program">
+												<CheckBox fx:id="bisonProgramCheckBox" alignment="CENTER" mnemonicParsing="false" prefHeight="17.0" prefWidth="175.0" text="Bison Feeding Program" GridPane.columnIndex="1" GridPane.rowIndex="5">
 													<padding>
 														<Insets left="20.0" />
 													</padding>
 												</CheckBox>
-											</children>
-										</HBox>
+									</children>
+								</GridPane>
+								<VBox alignment="CENTER" layoutX="10.0" layoutY="257.0" prefHeight="155.0" prefWidth="416.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="257.0">
+									<children>
+										<HBox prefHeight="42.0" prefWidth="404.0" />
 										<Button fx:id="addButton" mnemonicParsing="false" onAction="#addUser" text="Add Employee">
 											<VBox.margin>
 												<Insets />
